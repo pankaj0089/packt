@@ -5,17 +5,19 @@ namespace App\Http\Livewire\Author;
 use Livewire\Component;
 use App\Models\Author;
 use Livewire\WithPagination;
-use Session;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class Listing extends Component
 {
   use WithPagination;
+  use LivewireAlert;
   public $action = 'author';
   public $heading = 'Author';
   public $q;
-  public $sortBy = 'id';
+  public $sortBy = 'name';
   public $sortAsc = true;
   public $item;
+  public $deleteID = '';
 
   protected $queryString = [
       'q' => ['except' => ''],
@@ -44,5 +46,16 @@ class Listing extends Component
         $this->sortAsc = !$this->sortAsc;
     }
     $this->sortBy = $field;
+  }
+
+  public function deleteRecord($id) {
+      $this->deleteID = $id;
+  }
+
+  public function delete() {
+    if( Author::find($this->deleteID)->delete() ) {
+      $this->flash('success', 'User has been deleted successfully!');
+      return redirect()->route($this->action.'.listing');
+    }
   }
 }

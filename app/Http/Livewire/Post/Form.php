@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Post;
 use Livewire\Component;
 use App\Models\Post;
+use App\Models\Author;
 use Illuminate\Support\Facades\Http;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
 use App\Http\Livewire\Trix;
@@ -17,27 +18,37 @@ class Form extends Component
     public $body;
     public $author_id;
     public $modifyId;
+    public $goRestPostId;
+    public $goRestUserId;
+    public $restMsg = '';
 
     protected $rules = [
         'title' => 'required|max:255',
         'body' => 'required',
+        'author_id' => 'required|not_in:0'
     ];
 
     public function mount($id = '')
     {
-      /*$response = Http::withToken('d16569a6816e7171c4cf6df776768b80b4a609ebaab8b6de412dfd16852e03da')->post('https://gorest.co.in/public/v2/users', [
-          'name' => 'Sara',
-          'email' => 'sara@example.com',
-          'status' => 'active',
-          'gender' => 'female'
-      ]);
-      print_r($response); die;*/
+    /*echo  $apiUrl = env('REST_API_URL').'6219/posts';
 
+$dataArray = [
+    'title' => 'ABC',
+    'body' => 'BODDYYD'
+];
+        $response = Http::withToken(env('REST_API_TOKEN'))
+          ->post($apiUrl, $dataArray);
+    echo $response->status();
+    print_r($response->body());
+      die;*/
       if($id) {
         $row = Post::findOrfail($id);
         $this->fill([
           'edit' => true,
           'modifyId' => $id,
+          'author_id' => $row->author->id,
+          'goRestUserId' => $row->author->rest_user_id,
+          'goRestPostId' => $row->rest_post_id,
           'title' => $row->title,
           'body' => $row->body,
         ]);
@@ -49,7 +60,8 @@ class Form extends Component
     }
 
     public $listeners = [
-        Trix::EVENT_VALUE_UPDATED // trix_value_updated()
+        Trix::EVENT_VALUE_UPDATED, // trix_value_updated(),
+        'authorUpdated'
     ];
 
     public function trix_value_updated($value){
@@ -64,14 +76,54 @@ class Form extends Component
     public function saveData()
     {
         $validatedData = $this->validate();
+        //print_r($validatedData); die;
         if($this->edit) {
           $result = Post::findOrfail($this->modifyId)->update($validatedData);
         } else {
           $result = Post::create($validatedData);
+          $this->modifyId = $result->id;
+        }
+        if($this->modifyId > 0) {
+          $this->restMsg = $this->syncRecord();
         }
         if( $result ) {
-          $this->flash('success', 'Post has been saved successfully!');
+          $this->flash('success', 'Post has been saved successfully!<br />'.$this->restMsg);
           return redirect()->route($this->action.'.listing');
         }
+    }
+
+    public function authorUpdated() {
+      $this->goRestUserId = Author::where('id', $this->author_id)->pluck('rest_user_id')->first();
+    }
+
+    private function syncRecord() {
+      $dataArray = [
+          'title' => $this->title,
+          'body' => $this->body,
+          'user_id' => $this->goRestUserId,
+      ];
+      $apiUrl = env('REST_API_URL').'users/'.$this->goRestUserId.'/posts/';
+      if($this->edit && $this->goRestPostId > 0) {
+        $apiUrl = env('REST_API_URL').'posts/'.$this->goRestPostId;
+        $response = Http::withToken(env('REST_API_TOKEN'))
+          ->put($apiUrl, $dataArray);
+      } else {
+        $response = Http::withToken(env('REST_API_TOKEN'))
+          ->post($apiUrl, $dataArray);
+      }
+      switch ($response->status()) {
+        case 200:
+            $msg = "Post updated in GoRest API.";
+            break;
+        case 201:
+            $responseObj = json_decode($response->body());
+            $result = Post::findOrfail($this->modifyId)->update(['rest_post_id' => $responseObj->id]);
+            $msg = "Post added to GoRest API";
+            break;
+        default:
+            $msg = "Unable to sync record with GoRest API!";
+            break;
+      }
+      return $msg;
     }
 }

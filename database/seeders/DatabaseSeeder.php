@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
             CountrySeeder::class,
             UserSeeder::class,
         ]);
-        \App\Models\Author::factory(10)->create();
-        \App\Models\Post::factory(20)->create();
+        //\App\Models\Author::factory(10)->create();
+        //\App\Models\Post::factory(20)->create();
     }
 }

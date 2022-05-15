@@ -1,5 +1,5 @@
 
-  <div class="container mx-auto max-w-7xl px-6 py-4">
+  <div class="container mx-auto max-w-7xl px-6 py-4" x-data="{ showModalForm: false }">
     <h2 class="text-2xl">{{ $heading }}</h2>
     <div class="bg-white p-6 rounded-md mt-4 border-t-2 border-blue-600">
         <div class="grid grid-cols-2 mb-4">
@@ -39,7 +39,7 @@
                 <tr>
                     <td class="border py-2 text-center">{{ $loop->iteration }}</td>
                     <td class="border py-2 px-4">{{ $item->title }}</td>
-                    <td class="border py-2 px-4">AB</td>
+                    <td class="border py-2 px-4">{{ $item->author->name }}</td>
                     <td class="border py-2 px-4">{{ $item->updated_at }}</td>
                     <td class="border py-2 text-center">
                         <a href="{{ route($action.'.edit', $item->id) }}" title="Edit"><button class="p-2 font-semibold text-black transition-colors duration-200 transform rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 hover:text-white focus:text-white">
@@ -49,7 +49,8 @@
                             </svg>
                         </button>
                         </a>
-                        <button @click="showModalForm = true" title="Delete" class="p-2 text-black transition-colors duration-200 transform rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 hover:text-white focus:text-white">
+                        <button @click="showModalForm = true" title="Delete" class="p-2 text-black transition-colors duration-200 transform rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 hover:text-white focus:text-white"
+                        wire:click="deleteRecord({{ $item->id }})">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
                             </svg>
@@ -64,38 +65,31 @@
         </div>
     </div>
 
-
-
-</div>
-
-
-    <div x-data="{ showModalForm: false }">
-        <button @click="showModalForm = true">Show More...</button>
-
-        <div class="fixed inset-0 w-full h-full z-20 bg-black bg-opacity-50 duration-300 overflow-y-auto mt-50" x-show="showModalForm" x-transition:enter="transition duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" @click.outside="showModalForm = false" style="display:none">
-            <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-800 w-64 m-auto mt-8">
-                <div class="w-full h-full text-center">
-                    <div class="flex h-full flex-col justify-between">
-                        <svg width="40" height="40" class="mt-4 w-12 h-12 m-auto text-indigo-500" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M704 1376v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm256 0v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm256 0v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm-544-992h448l-48-117q-7-9-17-11h-317q-10 2-17 11zm928 32v64q0 14-9 23t-23 9h-96v948q0 83-47 143.5t-113 60.5h-832q-66 0-113-58.5t-47-141.5v-952h-96q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h309l70-167q15-37 54-63t79-26h320q40 0 79 26t54 63l70 167h309q14 0 23 9t9 23z">
-                            </path>
-                        </svg>
-                        <p class="text-gray-800 dark:text-gray-200 text-xl font-bold mt-4">
-                            Remove record
-                        </p>
-                        <p class="text-gray-600 dark:text-gray-400 text-xs py-2 px-6">
-                            Are you sure you want to delete this record ?
-                        </p>
-                        <div class="flex items-center justify-between gap-4 w-full mt-8">
-                            <button type="button" class="py-2 px-4  bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                Delete
-                            </button>
-                            <button @click="showModalForm = false" type="button" class="py-2 px-4  bg-white hover:bg-gray-100 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-indigo-500 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg " >
-                                Cancel
-                            </button>
-                        </div>
+    <div class="fixed inset-0 w-full h-full z-20 bg-black bg-opacity-50 duration-300 overflow-y-auto mt-50" x-show="showModalForm" x-transition:enter="transition duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" @click.outside="showModalForm = false" style="display:none">
+        <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-800 w-64 m-auto mt-8">
+            <div class="w-full h-full text-center">
+                <div class="flex h-full flex-col justify-between">
+                    <svg width="40" height="40" class="mt-4 w-12 h-12 m-auto text-indigo-500" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M704 1376v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm256 0v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm256 0v-704q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v704q0 14 9 23t23 9h64q14 0 23-9t9-23zm-544-992h448l-48-117q-7-9-17-11h-317q-10 2-17 11zm928 32v64q0 14-9 23t-23 9h-96v948q0 83-47 143.5t-113 60.5h-832q-66 0-113-58.5t-47-141.5v-952h-96q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h309l70-167q15-37 54-63t79-26h320q40 0 79 26t54 63l70 167h309q14 0 23 9t9 23z">
+                        </path>
+                    </svg>
+                    <p class="text-gray-800 dark:text-gray-200 text-xl font-bold mt-4">
+                        Remove post
+                    </p>
+                    <p class="text-gray-600 dark:text-gray-400 text-xs py-2 px-6">
+                        Are you sure you want to delete this post ?
+                    </p>
+                    <div class="flex items-center justify-between gap-4 w-full mt-8">
+                        <button type="button" class="py-2 px-4  bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg " wire:click.prevent="delete()">
+                            Delete
+                        </button>
+                        <button @click="showModalForm = false" type="button" class="py-2 px-4  bg-white hover:bg-gray-100 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-indigo-500 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg " >
+                            Cancel
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+</div>

@@ -10,6 +10,7 @@ class Trix extends Component
 
     public $value;
     public $trixId;
+    public $tabindex;
 
     public function mount($value = ''){
         $this->value = $value;
@@ -19,9 +20,8 @@ class Trix extends Component
     public function updatedValue($value){
         $this->emit(self::EVENT_VALUE_UPDATED, $this->value);
     }
-    
-    public function render()
-    {
-        return view('livewire.trix');
+
+    public function render() {
+      return view('livewire.trix');
     }
 }

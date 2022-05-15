@@ -18,7 +18,7 @@ class PostFactory extends Factory
     public function definition()
     {
       return [
-          'title' => $this->faker->sentence($maxNbChars = 150),
+          'title' => $this->faker->sentence(),
           'body' => $this->faker->paragraphs($nb = 3, $asText = true),
           'author_id' => $this->faker->randomElement(Author::pluck('id')),
           'created_at' => NOW()

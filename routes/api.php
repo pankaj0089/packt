@@ -14,13 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
 Route::post('/login', [App\Http\Controllers\AuthController::class, 'login']);
-/*
-Route::post('/tokens/create', function (Request $request) {
-    $token = $request->user()->createToken($request->token_name);
-    return ['token' => $token->plainTextToken];
-});*/
+
+Route::middleware('auth:sanctum')->group(function () {
+  Route::get('/user', function (Request $request) {
+      return $request->user();
+  });
+  Route::get('/authors', [App\Http\Controllers\ApiController::class, 'getAuthors']);
+  Route::get('/posts', [App\Http\Controllers\ApiController::class, 'getPosts']);
+  Route::post('/author', [App\Http\Controllers\ApiController::class, 'getAuthorById']);
+  Route::post('/post', [App\Http\Controllers\ApiController::class, 'getPostById']);
+});

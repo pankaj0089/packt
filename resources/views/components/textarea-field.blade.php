@@ -19,10 +19,8 @@ $classes = 'block w-full px-4 py-2 mt-1 text-gray-800 bg-white border border-gra
         </path>
       </svg>
     </div>
-    @if(isset($showErrMessage) && $showErrMessage === 'true')
     <div class="text-red-500">
       {{ $message }}
     </div>
-    @endif
     @enderror
     </div>

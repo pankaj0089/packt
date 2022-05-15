@@ -12,9 +12,10 @@ class CountriesDropdown extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $tabindex;
+    public function __construct($tabindex)
     {
-        //
+        $this->tabindex = $tabindex;
     }
 
     /**
@@ -24,7 +25,7 @@ class CountriesDropdown extends Component
      */
     public function render()
     {
-      $countries = Country::pluck('name', 'id')->sortBy('name');
+      $countries = Country::orderBy('name', 'ASC')->pluck('name', 'id');
       return view('components.countries-dropdown', compact('countries'));
     }
 }

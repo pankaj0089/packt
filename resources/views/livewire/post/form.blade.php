@@ -5,25 +5,23 @@
            <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-1">
              <div class="flex gap-x-2">
                <div class="w-1/4">
-                 <x-authors-dropdown />
+                 <x-authors-dropdown tabindex="1" />
                </div>
                <div class="w-full">
-                 <x-input-field wire:model="title" label="Title" name="title" id="title" maxlength="150" class="sm:w-full" value="" isRequired=true />
+                 <x-input-field wire:model="title" label="Title" name="title" id="title" maxlength="150" class="sm:w-full" value="" isRequired=true tabindex="2" />
                </div>
              </div>
 
            </div>
            <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-1">
             <div>
-              <livewire:trix :value="$body">
+                @error('body')
+                <div class="text-red-500 mt-2">{{ $message }}</div>
+                @enderror
+              <livewire:trix :value="$body" tabindex="3">
             </div>
           </div>
-          <x-submit-button />
+          <x-submit-button tabindex="4"/>
         </form>
     </section>
-    @if (session()->has('message'))
-           <div class="alert alert-success">
-               {{ session('message') }}
-           </div>
-       @endif
 </div>

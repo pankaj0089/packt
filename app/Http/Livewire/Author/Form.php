@@ -21,6 +21,8 @@ class Form extends Component
     public $country_id = 1;
     public $status = 1;
     public $modifyId;
+    public $goRestId;
+    public $restMsg = '';
 
     protected $rules = [
         'name' => 'required',
@@ -33,19 +35,12 @@ class Form extends Component
 
     public function mount($id = '')
     {
-      /*$response = Http::withToken('d16569a6816e7171c4cf6df776768b80b4a609ebaab8b6de412dfd16852e03da')->post('https://gorest.co.in/public/v2/users', [
-          'name' => 'Sara',
-          'email' => 'sara@example.com',
-          'status' => 'active',
-          'gender' => 'female'
-      ]);
-      print_r($response); die;*/
-
       if($id) {
         $row = Author::findOrfail($id);
         $this->fill([
           'edit' => true,
           'modifyId' => $id,
+          'goRestId' => $row->rest_user_id,
           'name' => $row->name,
           'email' => $row->email,
           'address_line1' => $row->address_line1,
@@ -77,10 +72,48 @@ class Form extends Component
           $result = Author::findOrfail($this->modifyId)->update($validatedData);
         } else {
           $result = Author::create($validatedData);
+          $this->modifyId = $result->id;
+        }
+        if($this->modifyId > 0) {
+          $this->restMsg = $this->syncRecord();
         }
         if( $result ) {
-          $this->flash('success', 'User has been saved successfully!');
+          $this->flash('success', 'User has been saved successfully! <br />'.$this->restMsg);
           return redirect()->route($this->action.'.listing');
         }
+    }
+
+    private function syncRecord() {
+      $dataArray = [
+          'name' => $this->name,
+          'email' => $this->email,
+          'status' => $this->status ? 'active' : 'inactive',
+          'gender' => $this->gender,
+      ];
+      $apiUrl = env('REST_API_URL').'users/';
+      if($this->edit && $this->goRestId > 0) {
+        $response = Http::withToken(env('REST_API_TOKEN'))
+          ->put($apiUrl.$this->goRestId, $dataArray);
+      } else {
+        $response = Http::withToken(env('REST_API_TOKEN'))
+          ->post($apiUrl, $dataArray);
+      }
+      switch ($response->status()) {
+        case 200:
+            $msg = "User updated in GoRest API.";
+            break;
+        case 201:
+            $responseObj = json_decode($response->body());
+            $result = Author::findOrfail($this->modifyId)->update(['rest_user_id' => $responseObj->id]);
+            $msg = "User added to GoRest API";
+            break;
+        case 422:
+            $msg = 'Email ID is already registered with GoRest API';
+            break;
+        default:
+            $msg = "Unable to sync record with GoRest API!";
+            break;
+      }
+      return $msg;
     }
 }

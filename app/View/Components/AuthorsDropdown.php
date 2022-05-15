@@ -12,10 +12,11 @@ class AuthorsDropdown extends Component
      *
      * @return void
      */
-    public function __construct()
-    {
-        //
-    }
+     public $tabindex;
+     public function __construct($tabindex)
+     {
+         $this->tabindex = $tabindex;
+     }
 
     /**
      * Get the view / contents that represent the component.
@@ -24,7 +25,7 @@ class AuthorsDropdown extends Component
      */
     public function render()
     {
-      $authors = Author::pluck('name', 'id')->sortBy('name');
+      $authors = Author::orderBy('name', 'ASC')->pluck('name', 'id');
       return view('components.authors-dropdown', compact('authors'));
     }
 }
