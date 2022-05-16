@@ -49,5 +49,7 @@ php artisan serve
 Open http:127.0.0.1:8000 in browser to run the application.
 
 During seeding, a demo admin account has been created with following details:
+
 user: pankaj89@ymail.com
+
 pass: packt2003
