@@ -30,7 +30,8 @@
                         </div>
                     </th>
                     <th class="border-2 py-2 w-1/5 text-gray-500">Author</th>
-                    <th class="border-2 text-gray-500">Last updated</th>
+                    <th class="border-2 w-1/12 text-gray-500">GoRest API</th>
+                    <th class="border-2 w-1/6 text-gray-500">Last updated</th>
                     <th class="border-2 w-24 text-gray-500">Action</th>
                 </tr>
             </thead>
@@ -39,7 +40,8 @@
                 <tr>
                     <td class="border py-2 text-center">{{ $loop->iteration }}</td>
                     <td class="border py-2 px-4">{{ $item->title }}</td>
-                    <td class="border py-2 px-4">{{ $item->author->name }}</td>
+                    <td class="border py-2 px-4">{{ ($item->author) ? $item->author->name : '' }}</td>
+                    <td class="border py-2 px-4">{{ $item->rest_post_id }}</td>
                     <td class="border py-2 px-4">{{ $item->updated_at }}</td>
                     <td class="border py-2 text-center">
                         <a href="{{ route($action.'.edit', $item->id) }}" title="Edit"><button class="p-2 font-semibold text-black transition-colors duration-200 transform rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 hover:text-white focus:text-white">

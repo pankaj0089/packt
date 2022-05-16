@@ -36,6 +36,7 @@
                         </div>
                     </th>
                     <th class="border-2 py-2 w-1/5 text-gray-500">Location</th>
+                    <th class="border-2 w-1/12 text-gray-500">GoRest API</th>
                     <th class="border-2 w-1/12 text-gray-500">Status</th>
                     <th class="border-2 w-24 text-gray-500">Action</th>
                 </tr>
@@ -48,6 +49,7 @@
                     <td class="border py-2 px-4">{{ $item->title }}<br />
                       <a class="text-blue-500" href="mailto:{{ $item->email }}">{{ $item->email }}</a><br />{{ $item->mobile }}</span></td>
                     <td class="border py-2 px-4">{{ $item->city }},<br />{{ $item->country->name }}</td>
+                    <td class="border py-2 px-4">{{ $item->rest_user_id }}</td>
                     <td class="border py-2 text-center">
                       @if(!$item->status)
                       <span class="px-2 py-1 text-xs font-bold text-red-600 border border-red-500 rounded-md cursor-not-allowed">
