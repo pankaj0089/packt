@@ -1,7 +1,9 @@
 ## Packt> Technical Task
 
 Requirements
+
 PHP >= 8.0
+
 Composer >= 2.0
 
 ## Installation
