@@ -1,0 +1,1900 @@
+ [
+        {
+            "id": 116,
+            "createdAt": "2022-10-13T16:48:37.097Z",
+            "updatedAt": "2023-06-21T13:16:55.603Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 116,
+                "title": "Auto Expo - New Car, Bike Launches",
+                "description": "Auto Expo - New Car, Bike Launches",
+                "keyword": "auto expo new launches",
+                "url": "auto-expo/new-launches/<page:\\d+>",
+                "h1": "Expo Launches"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 115,
+            "createdAt": "2022-10-13T16:48:37.112Z",
+            "updatedAt": "2023-06-21T13:16:55.605Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 115,
+                "title": "Best Recommended Cars: Recommend a New & Used Cars for You ",
+                "description": "Our tools help you to decide best car for you in just 4 simple steps. Use our Recommend a car section for new and used car and get custom results of best cars according to our preference. ",
+                "keyword": "recommend a car, new car, used, suggest a car, recommend me a car",
+                "url": "research/recommend-cars",
+                "h1": "Car Recommendation"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 114,
+            "createdAt": "2022-10-13T16:48:37.122Z",
+            "updatedAt": "2023-06-21T13:16:55.606Z",
+            "display_name": "Listing Video Pagiantion",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 114,
+                "title": "New Cars Reviews, Videos, news & updates - Page {page} ",
+                "description": "Review and Performance videos of cars by . {PRODUCTNAME} . experts. Video Car Reviews. Road Testing of Cars. In-depth test drives, Motor Show news and Car previews.",
+                "keyword": "review performance videos of cars . {PRODUCTNAME} . experts video car reviews road testing of cars in-depth test drives motor show news car previews",
+                "url": "videos/<page:\\d+>",
+                "h1": "Latest Videos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 113,
+            "createdAt": "2022-10-13T16:48:37.132Z",
+            "updatedAt": "2023-06-21T13:16:55.608Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 113,
+                "title": "Auto Expo 2020: Latest Auto News, Cars, Bikes Announcements from Motor Show",
+                "description": "Auto Expo 2020: Get Auto news updates, live streaming from the largest Auto Show of India. Find here latest car, bike launches, unveiling news, photos and videos related to Moto Show",
+                "keyword": "auto expo {year} , auto expo news, auto expo {year} videos, auto expo {year} photos, auto expo greater noida delhi ncr",
+                "url": "auto-expo",
+                "h1": "Auto Expo {year}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 161,
+            "createdAt": "2022-10-13T16:48:36.504Z",
+            "updatedAt": "2023-06-21T13:16:55.147Z",
+            "display_name": "Listing Used Car",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 161,
+                "title": "Buy Verified Second Hand Cars - Used Cars for Sale India",
+                "description": "2nd Hand Cars on Sale, Used diesel cars, Used Vehicles for sale?all second hand used diesel car, used vehicles available at low cost.All models of Old Cars available for sale",
+                "keyword": "cars on sale, vehicles for sale, second hand used cars, second hand cars for sale, sale second hand car, 2nd hand cars, used vehicles, used vehicles for sale, used car for sales, second hand cars india, old cars in india, old car sale, old cars for sale,",
+                "url": "used/buy-cars",
+                "h1": "Buy Used Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 121,
+            "createdAt": "2022-10-13T16:48:37.041Z",
+            "updatedAt": "2023-06-21T13:16:55.533Z",
+            "display_name": "Listing Videos - TV Shows",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 121,
+                "title": "{title} on {SITENAME} | Recent Episodes",
+                "description": "{title} Recent Episodes at {SITENAME}. {title} {description}",
+                "keyword": "{title} videos, {title} video clips",
+                "url": "<title:.*?>-<id:\\d+>-tv-show/episodes",
+                "h1": "{h1}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 111,
+            "createdAt": "2022-10-13T16:48:37.153Z",
+            "updatedAt": "2023-06-21T13:16:55.612Z",
+            "display_name": "Listing Video Pagiantion -Manufacturer",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 111,
+                "title": "Videos of {category}, news & updates",
+                "description": "Watch the videos of {category} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{category} videos",
+                "url": "videos/<manufacturer:[a-z0-9-]+>/<page:\\d+>",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 133,
+            "createdAt": "2022-10-13T16:48:36.816Z",
+            "updatedAt": "2023-06-21T13:16:55.435Z",
+            "display_name": "Listing Used Car Categories Price",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 133,
+                "title": "List of Used Cars within {price}",
+                "description": "If you are looking for used cars {keyword} {price} then check out our list of second hand cars available in good condition from verified owners and dealers in your city.",
+                "keyword": "cars {keyword} {price}, {price} used cars",
+                "url": "used/cars-<price:[a-z0-9-]+>",
+                "h1": "Used Cars Price {price}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 119,
+            "createdAt": "2022-10-13T16:48:37.062Z",
+            "updatedAt": "2023-06-21T13:16:55.614Z",
+            "display_name": "Listing Videos Pagination- TV Shows",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 119,
+                "title": "{title} - Page {page} ",
+                "description": "Episode {10} - The Car and Bike Show has been India\\\\\\'s number one automobile based programme for over 10 years. Catch the latest products, industry news, global motor shows and much more right here with Siddharth Vinayak Patankar. Every Monday 8:30 PM. #CNB - Page {page} - NDTV {SITENAME}",
+                "keyword": "CNB Prime Edition",
+                "url": "<title:.*?>-<id:\\d+>-tv-show/episodes/<page:\\d+>",
+                "h1": "{h1}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 109,
+            "createdAt": "2022-10-13T16:48:37.177Z",
+            "updatedAt": "2023-06-21T13:16:55.616Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 109,
+                "title": "Auto Expo {year} Photos, Auto Expo Event Photo Gallery",
+                "description": "Find exclusive gallery of car and bike images from the Auto Expo {year}, Auto Shows live event photos and news coverage. View the latest Auto Expo {year} news coverage and photos",
+                "keyword": "auto expo {year} , auto expo photos, auto expo {year} latest photos, auto expo {year} photo gallery, motor show {year} , {year} auto show images",
+                "url": "auto-expo/photos",
+                "h1": "Auto Expo {year} Photos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 180,
+            "createdAt": "2022-10-13T16:48:36.257Z",
+            "updatedAt": "2023-06-21T13:16:55.039Z",
+            "display_name": "Authors",
+            "custom_dymentions": [
+                {},
+                {
+                    "PageType": "author"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "author"
+            },
+            "seoParams": {
+                "id": 180,
+                "title": "Car and Bike News Authors | Automobile experts in India - carandbike",
+                "description": "carandbike News Author team in India consists of auto fanciers who are litreate in automobile engineering & journalism. Read latest auto news by our expert authors.",
+                "keyword": "carandbike Magazine Authors  Experts of cars and bikes",
+                "url": "/authors",
+                "h1": "carandbike authors"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 108,
+            "createdAt": "2022-10-13T16:48:37.187Z",
+            "updatedAt": "2023-06-21T13:16:55.618Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 108,
+                "title": "Auto Expo {year} Photos, Auto Expo Event Photo Gallery",
+                "description": "Find exclusive gallery of car and bike images from the Auto Expo {year}, Auto Shows live event photos and news coverage. View the latest Auto Expo {year} news coverage and photos",
+                "keyword": "auto expo {year} , auto expo photos, auto expo {year} latest photos, auto expo {year} photo gallery, motor show {year} , {year} auto show images",
+                "url": "auto-expo/photos/<page:\\d+>",
+                "h1": "Auto Expo {year} Photos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 125,
+            "createdAt": "2022-10-13T16:48:36.990Z",
+            "updatedAt": "2023-06-21T13:16:55.515Z",
+            "display_name": "Research -TCO",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 125,
+                "title": "Total Cost of Ownership (TCO): Calculator Cost of owning a Car",
+                "description": "TCO is an estimate of the total cost to own a car for a five year period. It includes all the expenses spent on fuel, insurance, maintenance, repairs, service, interest on loan payments as well as the losses incurred due to depreciation of the car at the end of the same period.",
+                "keyword": "Total Cost of Ownership, tco, calculator, {PRODUCTNAME}",
+                "url": "research/cost-to-own",
+                "h1": "Total Cost of Ownership"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 179,
+            "createdAt": "2022-10-13T16:48:36.268Z",
+            "updatedAt": "2023-06-21T13:16:55.044Z",
+            "display_name": "Author Story Listing",
+            "custom_dymentions": [
+                {
+                    "PageType": "author-listing"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "author-listing"
+            },
+            "seoParams": {
+                "id": 179,
+                "title": "{author} : Read all latest news and reviews from {author}",
+                "description": "{author} - Read the latest articles by {author} on the trending topics, exclusive information, Analysis and top headlines at carandbike.com",
+                "keyword": "{author} news reviews ",
+                "url": "/authors/<author>",
+                "h1": "{author}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 188,
+            "createdAt": "2022-10-13T16:48:36.146Z",
+            "updatedAt": "2023-06-21T13:16:55.097Z",
+            "display_name": "Video Home",
+            "custom_dymentions": [
+                {
+                    "PageType": "video-home"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "video-home"
+            },
+            "seoParams": {
+                "id": 188,
+                "title": "Car Videos: New Car Review and Test Drive Videos - {PRODUCTNAME}",
+                "description": "Watch the video reviews of new car launch in India. Learn more about the car, In-depth video test drives from the experts, driving performance and more at {SITENAME}",
+                "keyword": "car videos, car video reviews, expert reviews videos",
+                "url": "/videos",
+                "h1": "CarAndBike Videos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 178,
+            "createdAt": "2022-10-13T16:48:36.277Z",
+            "updatedAt": "2023-06-21T13:16:55.117Z",
+            "display_name": "Story",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 178,
+                "title": "{title}",
+                "description": "{summary}",
+                "keyword": "auto news, {keywords}",
+                "url": "communication/<slug:.*?>-<id:\\d+>",
+                "h1": "{title}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 177,
+            "createdAt": "2022-10-13T16:48:36.285Z",
+            "updatedAt": "2023-06-21T13:16:55.120Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 177,
+                "title": "Privacy Policy",
+                "description": null,
+                "keyword": null,
+                "url": "privacy-policy",
+                "h1": "Privacy Policy"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 175,
+            "createdAt": "2022-10-13T16:48:36.341Z",
+            "updatedAt": "2023-06-21T13:16:55.123Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 175,
+                "title": "Terms Of Service : Used Car Seller",
+                "description": "Terms Of Service : Used Car Seller",
+                "keyword": "",
+                "url": "/terms-of-service/used-car-seller",
+                "h1": "Terms Of Service : Used Car Seller"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 172,
+            "createdAt": "2022-10-13T16:48:36.376Z",
+            "updatedAt": "2023-06-21T13:16:55.127Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 172,
+                "title": "Post Your Wanted Ad",
+                "description": null,
+                "keyword": null,
+                "url": "used/want-cars/post",
+                "h1": "Post Your Wanted Ad"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 174,
+            "createdAt": "2022-10-13T16:48:36.362Z",
+            "updatedAt": "2023-06-21T13:16:55.125Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 174,
+                "title": "Terms of Service",
+                "description": null,
+                "keyword": null,
+                "url": "terms-of-service",
+                "h1": "Terms of Service"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 171,
+            "createdAt": "2022-10-13T16:48:36.393Z",
+            "updatedAt": "2023-06-21T13:16:55.128Z",
+            "display_name": "Listing Used Bike Categories Pageination - Slug",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 171,
+                "title": "{title}",
+                "description": "{description}",
+                "keyword": "{keywords}",
+                "url": "used/<slug:[a-z0-9-]+>-cars/<Classified_page:\\d+>",
+                "h1": "Used {slug} Cars - Page {Classified_page}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 170,
+            "createdAt": "2022-10-13T16:48:36.404Z",
+            "updatedAt": "2023-06-21T13:16:55.131Z",
+            "display_name": "Listing Video - All",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 170,
+                "title": "Videos of {category}, news & updates",
+                "description": "Watch the videos of {category} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{category} videos",
+                "url": "videos/all",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 167,
+            "createdAt": "2022-10-13T16:48:36.425Z",
+            "updatedAt": "2023-06-21T13:16:55.134Z",
+            "display_name": "Listing Video -Manufacturer",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 167,
+                "title": "Videos of {category}, news & updates",
+                "description": "Watch the videos of {category} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{category} videos",
+                "url": "videos/<manufacturer:[a-z0-9-]+>",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 166,
+            "createdAt": "2022-10-13T16:48:36.436Z",
+            "updatedAt": "2023-06-21T13:16:55.136Z",
+            "display_name": "Video Detail",
+            "custom_dymentions": [
+                {
+                    "PageType": "videos"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "videos"
+            },
+            "seoParams": {
+                "id": 166,
+                "title": "Videos of {slug}, news & updates",
+                "description": "Watch the videos of {slug} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at {SITENAME}",
+                "keyword": "{slug} videos",
+                "url": "videos/<slug:.*?>-<id:\\d+>",
+                "h1": "{slug}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 176,
+            "createdAt": "2022-10-13T16:48:36.311Z",
+            "updatedAt": "2023-06-21T13:16:55.122Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 176,
+                "title": "Terms Of Service : Used Car Buyer",
+                "description": "Terms Of Service : Used Car Buyer",
+                "keyword": null,
+                "url": "/terms-of-service/used-car-buyer",
+                "h1": "Terms Of Service : Used Car Buyer"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 164,
+            "createdAt": "2022-10-13T16:48:36.457Z",
+            "updatedAt": "2023-06-21T13:16:55.141Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 164,
+                "title": "Auto Expo {year} Videos, Expo Launches, Live Updates",
+                "description": "Crisp videos giving you the details worth knowing about the unveils and launches at the 14th Auto Expo.",
+                "keyword": "auto expo {year} videos news video news video updates",
+                "url": "auto-expo/videos",
+                "h1": "Auto Expo {year} Videos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 163,
+            "createdAt": "2022-10-13T16:48:36.468Z",
+            "updatedAt": "2023-06-21T13:16:55.143Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 163,
+                "title": "Auto Expo {year} : About the Event",
+                "description": "The 14th edition of the Auto Expo – the Motor Show {year} will be held at the India Expo Mart, Greater Noida from February 9-14, {year} . Know information about site plan, Auto Expo Venue and Time, Booking Tickets, Route Map",
+                "keyword": "auto expo {year} , auto expo event in delhi ncr, 14th auto expo, motor show {year} , {year} auto show",
+                "url": "auto-expo/about-the-event",
+                "h1": "About Auto Expo"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 160,
+            "createdAt": "2022-10-13T16:48:36.525Z",
+            "updatedAt": "2023-06-21T13:16:55.149Z",
+            "display_name": "Sell Bike",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 160,
+                "title": "Sell Bike Online India, Sell Used Bikes, Sell Your Bike, Sell My Bike",
+                "description": "Sell Bike, Scooters at best price online for free, we help to sell your second hand bike, sell my used bike. Fill contact, bike details & will list, sell your used bike in easy steps",
+                "keyword": "sell bikes, sell bike,  sell bike online, sell my bike, sell your bike, sell old bike, sell scooter, sell two-wheelers, sell used bikes, bike sell, sell second hand bike, sell bike in india",
+                "url": "used/sell-bikes",
+                "h1": "Sell your Bike for the Best Price"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 157,
+            "createdAt": "2022-10-13T16:48:36.556Z",
+            "updatedAt": "2023-06-21T13:16:55.152Z",
+            "display_name": "Listing Used Bike Categories - Slug&City",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 157,
+                "title": "Used {slug} Bikes in {city} - Second Hand {slug} Bikes for Sale in {city}",
+                "description": "Find good condition Used {slug} bikes in {city}. Browse used/second hand {slug} bikes by City/Location, manufacturer, price, year, fuel and buy used {slug} bikes in {city} at low prices",
+                "keyword": "used {slug} bikes in {city}, second hand {slug} bikes for sale in {city}",
+                "url": "used/<slug:[a-z0-9-]+>-bikes-in-<city:[a-z0-9-]+>",
+                "h1": "Used {slug} Bikes in {city}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 165,
+            "createdAt": "2022-10-13T16:48:36.447Z",
+            "updatedAt": "2023-06-21T13:16:55.139Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 165,
+                "title": "Auto Expo {year} Videos, Expo Launches, Live Updates",
+                "description": "Crisp videos giving you the details worth knowing about the unveils and launches at the 14th Auto Expo.",
+                "keyword": "auto expo {year} videos news video news video updates",
+                "url": "auto-expo/videos/<page:\\d+>",
+                "h1": "Auto Expo {year} Videos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 149,
+            "createdAt": "2022-10-13T16:48:36.645Z",
+            "updatedAt": "2023-06-21T13:16:55.206Z",
+            "display_name": "Listing Used Car Categories - Category",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 149,
+                "title": "Verified Used {slug} Cars - Second Hand Cars for Sale India - {PRODUCTNAME}",
+                "description": "Find good condition Used {slug} Cars in India. Browse used/second hand {slug} models by City/Location, manufacturer, price, year, fuel, body style and buy used {slug} cars at low prices.",
+                "keyword": "Used {slug} Cars, Second Hand {slug} Cars, Used {slug} Cars for sale.",
+                "url": "used/<category:[a-z0-9-]+>-cars",
+                "h1": "Used {slug} Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 144,
+            "createdAt": "2022-10-13T16:48:36.691Z",
+            "updatedAt": "2023-06-21T13:16:55.224Z",
+            "display_name": "Listing Used Car Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 144,
+                "title": "Cars for Sale: Search & Buy Used Cars for Sale in India ",
+                "description": "Find the best used cars available for sale. Best collection of used cars from verified owners and dealers in India. Find nearest local dealer for car sale details.",
+                "keyword": "car sale, used car sale, seconda hand cars for sale",
+                "url": "used/cars-for-sale/<Classified_page:\\d+>",
+                "h1": "Search Used Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 141,
+            "createdAt": "2022-10-13T16:48:36.724Z",
+            "updatedAt": "2023-06-21T13:16:55.309Z",
+            "display_name": "Listing Used Bike",
+            "custom_dymentions": [
+                {
+                    "PageType": "listing-used-bike"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "listing-used-bike"
+            },
+            "seoParams": {
+                "id": 141,
+                "title": "Buy Verified Second Hand Bikes - Used Bikes for Sale India - {PRODUCTNAME}",
+                "description": "Find the best used bikes available for sale. Best collection of used bikes from verified owners and dealers in India. Find nearest local dealer for bike sale details.",
+                "keyword": "bike sale, used bike sale, second hand bikes for sale",
+                "url": "used/bikes-for-sale",
+                "h1": "Find Used Bikes"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 140,
+            "createdAt": "2022-10-13T16:48:36.734Z",
+            "updatedAt": "2023-06-21T13:16:55.323Z",
+            "display_name": "Bike Dealer Home",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 140,
+                "title": "Bike Dealers in India: Find New Bike Dealers, Showrooms Near Your City",
+                "description": "New Bike Dealers, Showroom In India: Search & find authorized bike dealers, showrooms by brand, city at {PRODUCTNAME}. Get details and list of bike dealerships of all brands in India.",
+                "keyword": "bike dealers in india, new bike dealers, bike showrooms in india, bike dealers by brand, bike dealers by city, find bike dealers, search bike dealers, bike dealership, authorized bike dealers in india, bike dealer, bike dealerships",
+                "url": "bike-dealers",
+                "h1": "New Bike Dealers and Showrooms in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 156,
+            "createdAt": "2022-10-13T16:48:36.569Z",
+            "updatedAt": "2023-06-21T13:16:55.209Z",
+            "display_name": "Listing Used Car Categories - Slug",
+            "custom_dymentions": [
+                {
+                    "PageType": "category-used-car"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "category-used-car"
+            },
+            "seoParams": {
+                "id": 156,
+                "title": "Verified Used {slug} Cars - Second Hand Cars for Sale India - {PRODUCTNAME}",
+                "description": "Find good condition Used {slug} Cars in India. Browse used/second hand {slug} models by City/Location, manufacturer, price, year, fuel, body style and buy used {slug} cars at low prices.",
+                "keyword": "Used {slug} Cars, Second Hand {slug} Cars, Used {slug} Cars for sale.",
+                "url": "used/<slug:[a-z0-9-]+>-cars",
+                "h1": "Used {slug} Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 137,
+            "createdAt": "2022-10-13T16:48:36.764Z",
+            "updatedAt": "2023-06-21T13:16:55.420Z",
+            "display_name": "Car Dealer Make Level",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 137,
+                "title": "{manufacturer} Car Showrooms & Dealers in India: {count} New {manufacturer} Car Dealers",
+                "description": "Get details of {count} authorized {manufacturer} car dealers, showroom in India. Select city and get all {manufacturer} car dealer by city at {SITENAME}.",
+                "keyword": "{manufacturer} dealers in india, {manufacturer} car dealers in india, new {manufacturer} dealers, {manufacturer} showrooms in india, {manufacturer} dealers by city",
+                "url": "<manufacturer:[a-z0-9-]+>-cars/dealers",
+                "h1": "{manufacturer} Car Dealers and Showrooms in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 136,
+            "createdAt": "2022-10-13T16:48:36.772Z",
+            "updatedAt": "2023-06-21T13:16:55.427Z",
+            "display_name": "Valuation",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 136,
+                "title": "Free Used Car Valuation Tool {year}* - Check Cars Accurate Resale Value India",
+                "description": "CarandBike.com Used Car Valuation tool is an Car Value Calculator (Precise, Simple & Transparent). You can check car valuation online for free.",
+                "keyword": "car valuation, used car valuation, Old Car Valuation, Car Value, Second Hand Car Valuation, Car Value Calculator",
+                "url": "used/car-valuation-price-calculator/car-value",
+                "h1": "Used Car Valuation"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 135,
+            "createdAt": "2022-10-13T16:48:36.780Z",
+            "updatedAt": "2023-06-21T13:16:55.429Z",
+            "display_name": "Valuation",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 135,
+                "title": "Free Used Car Valuation Tool {year}* - Check Cars Accurate Resale Value India",
+                "description": "CarandBike.com Used Car Valuation tool is an Car Value Calculator (Precise, Simple & Transparent). You can check car valuation online for free.",
+                "keyword": "car valuation, used car valuation, Old Car Valuation, Car Value, Second Hand Car Valuation, Car Value Calculator",
+                "url": "used/car-valuation-price-calculator",
+                "h1": "Used Car Valuation"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 134,
+            "createdAt": "2022-10-13T16:48:36.789Z",
+            "updatedAt": "2023-06-21T13:16:55.432Z",
+            "display_name": "Listing Used Car Categories Pagination - Price",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 134,
+                "title": "List of Used Cars within {price}",
+                "description": "If you are looking for used cars {keyword} {price} then check out our list of second hand cars available in good condition from verified owners and dealers in your city.",
+                "keyword": "cars {keyword} {price}, {price} used cars",
+                "url": "used/cars-<price:[a-z0-9-]+>/<Classified_page:\\d+>",
+                "h1": "Used Cars Price {price}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 132,
+            "createdAt": "2022-10-13T16:48:36.843Z",
+            "updatedAt": "2023-06-21T13:16:55.438Z",
+            "display_name": "Listing Used Bike Categories Pagination - Price",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 132,
+                "title": "List of Used Bikes within {price} ",
+                "description": "If you are looking for used bikes under {price} then check out our list of second hand bikes available in good condition from verified owners and dealers in your city.",
+                "keyword": "bikes under {price}, {price} used bikes",
+                "url": "used/bikes-<price:[a-z0-9-]+>/<BikeClassified_page:\\d+>",
+                "h1": "Used Bikes Price {price}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 138,
+            "createdAt": "2022-10-13T16:48:36.755Z",
+            "updatedAt": "2023-06-21T13:16:55.399Z",
+            "display_name": "Car Dealer Make City Level",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 138,
+                "title": "{manufacturer} Showrooms in {city}: {count} New {manufacturer} Car Dealers near {city}",
+                "description": "Get details of {count} authorized {manufacturer} car dealers, showrooms in {city}. Find car dealer address, offers and other details of showroom at {PRODUCTNAME}",
+                "keyword": "{manufacturer} dealers in {city}, {manufacturer} car dealers in {city}, new {manufacturer} dealers in {city}, {manufacturer} showrooms in {city}",
+                "url": "<manufacturer:[a-z0-9-]+>-cars/dealers-in-<city:.*?>",
+                "h1": "{manufacturer} Car Dealers and Showrooms in {city}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 130,
+            "createdAt": "2022-10-13T16:48:36.909Z",
+            "updatedAt": "2023-06-21T13:16:55.506Z",
+            "display_name": "Research",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 130,
+                "title": "Research New and Used Cars in India, Prices, Specs & Reviews ",
+                "description": "Research and compare new car and used cars in India.  Get car reports with genuine reviews, photos, and videos at {SITENAME}.",
+                "keyword": "research car, car research, used cars, new cars, {PRODUCTNAME}",
+                "url": "research",
+                "h1": "Research Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 127,
+            "createdAt": "2022-10-13T16:48:36.963Z",
+            "updatedAt": "2023-06-21T13:16:55.510Z",
+            "display_name": "Research - Affordable Bikes",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 127,
+                "title": "Low Price Bikes in India - Find the Best Affordable & Budget Bikes {year}",
+                "description": "Get the list of best low priced bikes in India. Find the most ranked affordable bikes with best mileage and specs from leading bike dealers in India.",
+                "keyword": "affordable bikes, affordable bikes in india, affordable bike insurance, new affordable bikes, old affordable bikes, affordable sports bike, old affordable bike",
+                "url": "research/affordable-bikes",
+                "h1": "What Bike can you afford ?"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 129,
+            "createdAt": "2022-10-13T16:48:36.936Z",
+            "updatedAt": "2023-06-21T13:16:55.509Z",
+            "display_name": "Research - Montly Payment",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 129,
+                "title": "Car Loan EMI Calculator, Calculate New Car Loan EMI ",
+                "description": "Car Loans EMI Calculator. Calculate EMI, Car Loan Interest Rate for new & used car. Use free EMI calculator for your car loan to plan your purchase.",
+                "keyword": "car loan, emi calculator, car loan EMI, {SITENAME}",
+                "url": "research/monthly-payments",
+                "h1": "Car EMI Calculator"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 124,
+            "createdAt": "2022-10-13T16:48:37.000Z",
+            "updatedAt": "2023-06-21T13:16:55.517Z",
+            "display_name": "Listing Video Categories - Slug",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 124,
+                "title": "Videos of {slug}, news & updates",
+                "description": "Watch the videos of {slug} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{slug} videos",
+                "url": "videos/<slug:.*?>-<id:\\d+>",
+                "h1": "{slug}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 123,
+            "createdAt": "2022-10-13T16:48:37.015Z",
+            "updatedAt": "2023-06-21T13:16:55.520Z",
+            "display_name": "Listing Video Categories",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 123,
+                "title": "Videos of {slug}, news & updates",
+                "description": "Watch the videos of {slug} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{slug} videos",
+                "url": "<title:.*?>-tv-show/<slug:.*?>-<id:\\d+>",
+                "h1": "{slug}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 126,
+            "createdAt": "2022-10-13T16:48:36.976Z",
+            "updatedAt": "2023-06-21T13:16:55.512Z",
+            "display_name": "Research - Insurance",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 126,
+                "title": "Car Insurance: Calculate Car Insurance Premium Online in India ",
+                "description": "Calculate car insurance premium online at {SITENAME}. Compare car insurance policies online from India's leading car insurance companies.",
+                "keyword": "car insurance, car insurance companies, calculate car insurance premium, compare car insurance, renew car insurance, buy car insurance",
+                "url": "research/insurance",
+                "h1": "Insurance Premium Calculator"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 122,
+            "createdAt": "2022-10-13T16:48:37.028Z",
+            "updatedAt": "2023-06-21T13:16:55.528Z",
+            "display_name": "Video Detail - TV Show",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 122,
+                "title": "{title} on {SITENAME} | Recent Episodes",
+                "description": "{title} Recent Episodes at {SITENAME}. {title} {description}",
+                "keyword": "{title} videos, {title} video clips",
+                "url": "<title:.*?>-<id:\\d+>-tv-show",
+                "h1": "{h1}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 131,
+            "createdAt": "2022-10-13T16:48:36.876Z",
+            "updatedAt": "2023-06-21T13:16:55.503Z",
+            "display_name": "Listing Used Bike Categories - Price",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 131,
+                "title": "List of Used Bikes within {price} ",
+                "description": "If you are looking for used bikes under {price} then check out our list of second hand bikes available in good condition from verified owners and dealers in your city.",
+                "keyword": "bikes under {price}, {price} used bikes",
+                "url": "used/bikes-<price:[a-z0-9-]+>",
+                "h1": "Used Bikes Price {price}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 107,
+            "createdAt": "2022-10-13T16:48:37.197Z",
+            "updatedAt": "2023-06-21T13:16:55.621Z",
+            "display_name": "Listing Photo",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 107,
+                "title": "Car and Bike Images: New Cars & Bikes Photo Gallery",
+                "description": "View latest bikes and cars photos at {SITENAME}. Find exclusive photo gallery of bike and car images from the Auto Expo, launch event, car & bike awards, and news coverage.",
+                "keyword": "car photos, events pictures, new cars images,  new bikes,  photo gallery",
+                "url": "photos",
+                "h1": "Car and Bike Photos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 106,
+            "createdAt": "2022-10-13T16:48:37.208Z",
+            "updatedAt": "2023-06-21T13:16:55.623Z",
+            "display_name": "Listing Video Categories",
+            "custom_dymentions": [
+                {
+                    "PageType": "category-video"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "category-video"
+            },
+            "seoParams": {
+                "id": 106,
+                "title": "Videos of {category}, News & Updates",
+                "description": "Watch the videos of {category} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{category} videos",
+                "url": "videos/live-discussion-on-sc-bans-registartion-of-diesel-vehicles",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 105,
+            "createdAt": "2022-10-13T16:48:37.219Z",
+            "updatedAt": "2023-06-21T13:16:55.624Z",
+            "display_name": "Photo",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 105,
+                "title": "{title}",
+                "description": "{description}",
+                "keyword": "{keywords}",
+                "url": "photos/<slug:.*?>-<id:\\d+>",
+                "h1": "{h1}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 120,
+            "createdAt": "2022-10-13T16:48:37.052Z",
+            "updatedAt": "2023-06-21T13:16:55.595Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 120,
+                "title": "{year} Auto Expo Awards For Excellence",
+                "description": "{year} Auto Expo Awards For Excellence",
+                "keyword": "{year} Auto Expo Awards For Excellence",
+                "url": "auto-expo/awards",
+                "h1": "AUTO EXPO AWARDS FOR EXCELLENCE"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 112,
+            "createdAt": "2022-10-13T16:48:37.142Z",
+            "updatedAt": "2023-06-21T13:16:55.610Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 112,
+                "title": "Auto Expo {year} - {manufacturer} Car Launches",
+                "description": "Auto Expo - {manufacturer} Car Launches",
+                "keyword": "new {manufacturer} launches, auto expo {year}",
+                "url": "auto-expo/<manufacturer:[a-z0-9-]+>-cars",
+                "h1": "Auto Expo - {manufacturer} Car Launches"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 110,
+            "createdAt": "2022-10-13T16:48:37.163Z",
+            "updatedAt": "2023-06-21T13:16:55.632Z",
+            "display_name": "Listing Video Pagination - All",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 110,
+                "title": "Videos of {category}, news & updates",
+                "description": "Watch the videos of {category} in India. Learn more about the car, In-depth video test drives from the experts, driving performance & more at carandbike.com",
+                "keyword": "{category} videos",
+                "url": "videos/all/<page:\\d+>",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 162,
+            "createdAt": "2022-10-13T16:48:36.478Z",
+            "updatedAt": "2023-06-21T13:16:55.146Z",
+            "display_name": "Product Used Bike",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 162,
+                "title": "Used {manufacturer} {model} Bike in {city} {year} model, India at Best Price, ID {id}",
+                "description": "Get the details of used {manufacturer} {model} two-wheeler ({year} model) available in {city}, India. This used/second hand {manufacturer} {model} bike in good condition, ID {id} and available at Rs. {price}. Contact the dealer / owner for details.",
+                "keyword": "used {manufacturer} {model} bikes in {city}, second hand {manufacturer} {model} bikes for sale in {city}",
+                "url": "used/<manufacturer:[a-z0-9-]+>-<model:[a-z0-9-]+>-bikes-in-<city:[a-z0-9-]+>-<id:\\d+>",
+                "h1": "Used {manufacturer} {model} Bikes in {city}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 139,
+            "createdAt": "2022-10-13T16:48:36.744Z",
+            "updatedAt": "2023-06-21T13:16:55.327Z",
+            "display_name": "Car Dealer Home",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 139,
+                "title": "Car Dealers in India: Find New Car Dealers, Showrooms Near Your City",
+                "description": "New Car Dealers, Showroom In India: Search & find authorized car dealers, showrooms by brand, city at CarAndBike. Get details and list of car dealerships of all brands in India.",
+                "keyword": "car dealers in india, new car dealers, car showrooms in india, car dealers by brand, car dealers by city, find car dealers, search car dealers, car dealership, authorized car dealers in india, car dealer, car dealerships",
+                "url": "car-dealers",
+                "h1": "New Car Dealers and Showrooms in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 128,
+            "createdAt": "2022-10-13T16:48:36.950Z",
+            "updatedAt": "2023-06-21T13:16:55.598Z",
+            "display_name": "Research - Bike EMI Calculator",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 128,
+                "title": "Bike Loan EMI Calculator - Calculate Interest Rate on Two Wheeler Loan",
+                "description": "Explore {PRODUCTNAME}'s highly accurate Bike Loans EMI Calculator. Calculate EMI Interest for new & used Bike and use it for free to make best informed decision.",
+                "keyword": "bike loan, emi calculator, bike loan EMI, {SITENAME}",
+                "url": "research/bike-emi-calculator",
+                "h1": "Bike EMI Calculator"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 118,
+            "createdAt": "2022-10-13T16:48:37.072Z",
+            "updatedAt": "2023-06-21T13:16:55.600Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 118,
+                "title": "Auto Expo - New Car, Bike Launches",
+                "description": "Auto Expo - New Car, Bike Launches",
+                "keyword": null,
+                "url": "auto-expo/new-launches",
+                "h1": "Expo Launches"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 117,
+            "createdAt": "2022-10-13T16:48:37.084Z",
+            "updatedAt": "2023-06-21T13:16:55.601Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 117,
+                "title": "Auto Expo - New Car, Bike Launches",
+                "description": "Auto Expo - New Car, Bike Launches",
+                "keyword": null,
+                "url": "auto-expo/new-launches/amp/<page:\\d+>",
+                "h1": "Expo Launches"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 104,
+            "createdAt": "2022-10-13T16:48:37.231Z",
+            "updatedAt": "2023-06-21T13:16:55.626Z",
+            "display_name": "Listing Photo Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 104,
+                "title": "Car and Bike Images: New Cars & Bikes Photo Gallery",
+                "description": "View latest bikes and cars photos at {SITENAME}. Find exclusive photo gallery of bike and car images from the Auto Expo, launch event, car & bike awards, and news coverage.",
+                "keyword": "car photos, events pictures, new cars images,  new bikes,  photo gallery",
+                "url": "photos/<page:\\d+>",
+                "h1": "Car and Bike Photos"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 101,
+            "createdAt": "2022-10-13T16:48:37.266Z",
+            "updatedAt": "2023-06-21T13:16:55.631Z",
+            "display_name": "Story",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 101,
+                "title": "\"{title} - {PRODUCTNAME}\"",
+                "description": "{summary}",
+                "keyword": null,
+                "url": "reviews/<slug:.*?>-<id:\\d+>",
+                "h1": "{h1}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 96,
+            "createdAt": "2022-10-13T16:48:37.326Z",
+            "updatedAt": "2023-06-21T13:16:55.639Z",
+            "display_name": "Listing Car Categories - Transmission",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 96,
+                "title": "{slug} Cars in India {year} On Road prices, New {slug} Cars",
+                "description": "Check out the list of {slug} cars in India {year}. Get detail of best {slug} cars including on road price, fuel type and mileage",
+                "keyword": "{slug} Cars in India, {slug} Cars, {slug}",
+                "url": "new-cars/<transmission:[a-z0-9-]+>-cars",
+                "h1": "{slug} Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 95,
+            "createdAt": "2022-10-13T16:48:37.337Z",
+            "updatedAt": "2023-06-21T13:16:55.640Z",
+            "display_name": "Listing Car Categories Pagiantion - Transmission",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 95,
+                "title": "{slug} Cars in India {year} On Road prices, New {slug} Cars",
+                "description": "Check out the list of {slug} cars in India {year}. Get detail of best {slug} cars including on road price, fuel type and mileage",
+                "keyword": "{slug} Cars in India, {slug} Cars, {slug}",
+                "url": "new-cars/<transmission:[a-z0-9-]+>-cars/<page:\\d+>",
+                "h1": "{slug} Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 103,
+            "createdAt": "2022-10-13T16:48:37.242Z",
+            "updatedAt": "2023-06-21T13:16:55.628Z",
+            "display_name": "Listing Review Categories",
+            "custom_dymentions": [
+                {
+                    "PageType": "category-reviews"
+                },
+                {
+                    "PageType": "category-reviews"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "category-reviews"
+            },
+            "seoParams": {
+                "id": 103,
+                "title": "{category} Expert Reviews on carandbike",
+                "description": "Get {category} reviews of cars and bikes at {SITENAME}. Get expert reviews, in-depth road test details on handling, mileage & performance in different conditions.",
+                "keyword": "{category}, expert reviews, car reviews, bikes reviews, new bikes",
+                "url": "reviews/<categories:.*?>",
+                "h1": "Reviews: {categories}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 92,
+            "createdAt": "2022-10-13T16:48:37.369Z",
+            "updatedAt": "2023-06-21T13:16:55.647Z",
+            "display_name": "Auto Expo Listing Story",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 92,
+                "title": "Auto Expo {year} Latest News, Auto News and information",
+                "description": "Get latest news on Auto Expo {year} in India, Greater Noida (Delhi NCR). Read articles, auto expo news and all latest information on automobile expo",
+                "keyword": "auto expo {year}, auto expo news, auto expo {year} latest news, motor show {year}, {year} auto show",
+                "url": "auto-expo/news",
+                "h1": "Auto Expo {year} News"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 83,
+            "createdAt": "2022-10-13T16:48:37.465Z",
+            "updatedAt": "2023-06-21T13:16:55.698Z",
+            "display_name": "Category Story Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 83,
+                "title": "{category} News: Latest Automotive Industry News",
+                "description": "Get latest news on {category} in India. Read articles, auto news & all latest information on automobile sector in India.",
+                "keyword": "automobile industry news, news, auto news, auto industry news, auto news",
+                "url": "news/<categories:.*?>/<page:\\d+>",
+                "h1": "{category}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 79,
+            "createdAt": "2022-10-13T16:48:37.538Z",
+            "updatedAt": "2023-06-21T13:16:55.708Z",
+            "display_name": "Story",
+            "custom_dymentions": [
+                {
+                    "PageType": "story"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "story"
+            },
+            "seoParams": {
+                "id": 79,
+                "title": "{title}",
+                "description": "{summary}",
+                "keyword": "news, auto news, {keywords}, {PRODUCTNAME}",
+                "url": "news/<slug:.*?>-<id:\\d+>",
+                "h1": "{title}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 85,
+            "createdAt": "2022-10-13T16:48:37.442Z",
+            "updatedAt": "2023-06-21T13:16:55.694Z",
+            "display_name": "Listing Car Categories Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 85,
+                "title": "{slug} Cars in India {year} On Road prices, New {slug} Cars",
+                "description": "Check out the list of {slug} cars in India {year}. Get detail of best {slug} cars including on road price, fuel type and mileage",
+                "keyword": "{slug} Cars in India, {slug} Cars, {slug}",
+                "url": "new-cars/<category:[a-z0-9-]+>-cars/<page:\\d+>",
+                "h1": "{slug} Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 84,
+            "createdAt": "2022-10-13T16:48:37.454Z",
+            "updatedAt": "2023-06-21T13:16:55.696Z",
+            "display_name": "Listing Car Categories - Slug",
+            "custom_dymentions": [
+                {
+                    "PageType": "category-new-car"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "category-new-car"
+            },
+            "seoParams": {
+                "id": 84,
+                "title": "{slug} Cars in India {year} On Road prices, New {slug} Cars",
+                "description": "Check out the list of {slug} cars in India {year}. Get detail of best {slug} cars including on road price, fuel type and mileage",
+                "keyword": "{slug} Cars in India, {slug} Cars, {slug}",
+                "url": "new-cars/<slug:[a-z0-9-]+>-cars",
+                "h1": "{slug} Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 78,
+            "createdAt": "2022-10-13T16:48:37.563Z",
+            "updatedAt": "2023-06-21T13:16:55.709Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 78,
+                "title": "New Cars with Prices Between {min_price} to {max_price} Lakh in India {year} - {PRODUCTNAME}",
+                "description": "Check out the list of car models between {min_price} to {max_price} lakh price range in India with mileage, NDTV Rating, on road price, review at carandbike.com",
+                "keyword": "cars between {min_price} to {max_price} lakh in India, cars between {min_price} to {max_price} lakh",
+                "url": "new-cars/cars-between-<min_price:\\d+>-to-<max_price:\\d+>-lakh",
+                "h1": "Cars Between {min_price}  to {max_price} Lakh in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 75,
+            "createdAt": "2022-10-13T16:48:37.648Z",
+            "updatedAt": "2023-06-21T13:16:55.712Z",
+            "display_name": "Popular Listing Bike",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 75,
+                "title": "Best Bikes in India {year}  - Top & Popular Bike Model Prices & Features",
+                "description": "Find the most popular & best Bikes in India. List of top bikes models across segments that are most favoured by people. Get on-road prices, bike specifications, features & much more at {SITENAME}.",
+                "keyword": null,
+                "url": "new-bikes/popular-bike-models",
+                "h1": "Popular Bikes in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 57,
+            "createdAt": "2022-10-13T16:48:37.897Z",
+            "updatedAt": "2023-06-21T13:16:55.741Z",
+            "display_name": "Latest Launch Listing Bike",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 57,
+                "title": "Latest Bikes Prices in India - New Bike Model Launches in {year}",
+                "description": "Find all the latest bike launch in India. Get the on-road prices, pros and cons, nearest bike dealers, videos, pictures & expert views on {SITENAME}.",
+                "keyword": null,
+                "url": "new-bikes/launches",
+                "h1": "Latest New Bikes in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 51,
+            "createdAt": "2022-10-13T16:48:38.050Z",
+            "updatedAt": "2023-06-21T13:16:55.796Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 51,
+                "title": "Cars: Buy Cars Online in India",
+                "description": null,
+                "keyword": null,
+                "url": "shop/cars",
+                "h1": "Buy Cars Online"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 39,
+            "createdAt": "2022-10-13T16:48:38.190Z",
+            "updatedAt": "2023-06-21T13:16:55.801Z",
+            "display_name": "Category Listing Bike Models",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 39,
+                "title": "{category} Bikes in India On Road prices, {category} in India - {SITENAME} - Page {page}",
+                "description": "Check out the list of new {category} bikes in India. Get detail of best {category} bikes including on road price, Rating, fuel type and mileage at {SITENAME}",
+                "keyword": "{category} bikes, buy {category}, new {category} bikes, best {category} bikes, {category} bike in india",
+                "url": "new-bikes/<category:[a-z0-9-]+>-bikes",
+                "h1": "{category} Bikes in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 41,
+            "createdAt": "2022-10-13T16:48:38.168Z",
+            "updatedAt": "2023-06-21T13:16:55.765Z",
+            "display_name": "Listing Used Car Categories - Certified",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 41,
+                "title": "Second Hand Used Certified Cars, Used Diesel Second Hand Certified Cars India, 2nd Hand & Pre Owned Certified Cars ",
+                "description": "2nd Hand Certified Cars on Sale, Used Certified diesel cars, Used Certified Vehicles for sale?all second hand used diesel car, used certified vehicles available at low cost.All models of Used Certified Cars available for sale",
+                "keyword": "cars on sale, vehicles for sale, second hand used cars, second hand cars for sale, sale second hand car, 2nd hand cars, used vehicles, used vehicles for sale, used car for sales, second hand cars india, old cars in india, old car sale, old cars for sale, ",
+                "url": "used/certified-cars",
+                "h1": "Used Certified Cars"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 54,
+            "createdAt": "2022-10-13T16:48:37.979Z",
+            "updatedAt": "2023-06-21T13:16:55.815Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 54,
+                "title": "New Car Models and Variants: Search All Car Models in {city} ",
+                "description": "Get details about all new car models in {city}. Visit us and find new car models, car prices, car features, car comparison of different variants in {city}.",
+                "keyword": "car models, car varient, cars in {city}, new car models, compare car models, car model prices",
+                "url": "new-cars/models/city/<city:[a-z0-9-]+>",
+                "h1": "New Car Models"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 74,
+            "createdAt": "2022-10-13T16:48:37.673Z",
+            "updatedAt": "2023-06-21T13:16:55.714Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 74,
+                "title": "Viewers Choice Car of the Year 2018",
+                "description": "Vote for Viewers Choice Car of the Year 2018",
+                "keyword": null,
+                "url": "carandbike-awards/vote-car",
+                "h1": "Vote for Car"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 72,
+            "createdAt": "2022-10-13T16:48:37.710Z",
+            "updatedAt": "2023-06-21T13:16:55.717Z",
+            "display_name": "New Car Home",
+            "custom_dymentions": [
+                {
+                    "PageType": "new-car-home"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "new-car-home"
+            },
+            "seoParams": {
+                "id": 72,
+                "title": "New Cars in India {year} - New Car Models Prices, Images, reviews and Specs",
+                "description": "Explore new cars in India. Find new cars by model, features, price and pictures. Checkout latest updates on new cars offers, discounts and on-road prices at {SITENAME}",
+                "keyword": "new cars, new cars india, car purchase, buy new car, new model car, best car to buy, purchase cars, purchase vehicles, buy new cars, best new cars to buy, best new vehicles buy india",
+                "url": "new-cars",
+                "h1": "New Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 73,
+            "createdAt": "2022-10-13T16:48:37.688Z",
+            "updatedAt": "2023-06-21T13:16:55.716Z",
+            "display_name": "Popular Listing Car ",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 73,
+                "title": "Best Cars in India {year} - Top & Popular Car Models Prices & Features",
+                "description": "Find the most popular & best Cars in India. List of top cars models across segments that are most favoured by people. Get on-road prices, car specifications, features & much more at {SITENAME}.",
+                "keyword": "popular cars, popular new cars, most popular cars in India",
+                "url": "new-cars/popular-car-models",
+                "h1": "Popular Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 69,
+            "createdAt": "2022-10-13T16:48:37.744Z",
+            "updatedAt": "2023-06-21T13:16:55.722Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 69,
+                "title": "{PRODUCTNAME} Awards - Nominees & Winners of {year}",
+                "description": "{PRODUCTNAME} Awards - Nominees & Winners of {year}",
+                "keyword": null,
+                "url": "carandbike-awards/<type:(winners|nominees)>-<year:\\d+>",
+                "h1": "CarAndBike Awards - Nominees & Winners of {year}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 68,
+            "createdAt": "2022-10-13T16:48:37.756Z",
+            "updatedAt": "2023-06-21T13:16:55.724Z",
+            "display_name": "Listing Reviews Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 68,
+                "title": "Car, Bike | Expert Car Reviews, Bike Reviews - Page {page} ",
+                "description": "{SITENAME} . Car Reviews - Our view on the latest cars and bikes in the market. Read expert car reviews and get a fresh perspective on the art and science of a car\\'s dynamic abilities - Page {page}",
+                "keyword": "expert bike reviews, bike reviews",
+                "url": "reviews/<page:\\d+>",
+                "h1": "Latest Reviews"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 71,
+            "createdAt": "2022-10-13T16:48:37.718Z",
+            "updatedAt": "2023-06-21T13:16:55.719Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 71,
+                "title": "{PRODUCTNAME} Awards - Past Winners",
+                "description": "{PRODUCTNAME} Awards - Past Winners",
+                "keyword": "CarAndBike Awards , Past Winners",
+                "url": "carandbike-awards/past-winners",
+                "h1": "CarAndBike Awards - Past Winners"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 70,
+            "createdAt": "2022-10-13T16:48:37.725Z",
+            "updatedAt": "2023-06-21T13:16:55.720Z",
+            "display_name": "New Bike Home",
+            "custom_dymentions": [
+                {
+                    "PageType": "new-bike-home"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "new-bike-home"
+            },
+            "seoParams": {
+                "id": 70,
+                "title": "New Bikes in India {year} - Find New Bikes by Prices, Pictures, Features",
+                "description": "Explore new bikes in India. Find new bikes by model, features, price and pictures. Checkout latest updates on new bikes offers, discounts and on-road prices at {SITENAME}",
+                "keyword": "new bikes, new bikes india, bike purchase, buy new bike, new model bike, best bike to buy, purchase bikes, purchase vehicles, buy new bikes, best new bikes to buy, best new vehicles buy india",
+                "url": "new-bikes",
+                "h1": "New Bikes in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 77,
+            "createdAt": "2022-10-13T16:48:37.588Z",
+            "updatedAt": "2023-06-21T13:16:55.711Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 77,
+                "title": "New Cars Between {min_price}  to {max_price} lakh",
+                "description": "Find all the latest cars in India within {min_price} to {max_price} lakh. Select car type and get the list of new cars under {min_price} from your nearest local dealers.",
+                "keyword": "new cars, buy new car, compare car, cars within {price}",
+                "url": "new-cars/cars-between-<min_price:\\d+>-to-<max_price:\\d+>-lakh/<page:\\d+>",
+                "h1": "Cars Between {min_price}  to {max_price} lakh"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 66,
+            "createdAt": "2022-10-13T16:48:37.783Z",
+            "updatedAt": "2023-06-21T13:16:55.727Z",
+            "display_name": "Listing Story",
+            "custom_dymentions": [
+                {
+                    "PageType": "listing-story"
+                },
+                {
+                    "SiteName": "www.carandbike.com"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "listing-story",
+                "SiteName": "www.carandbike.com"
+            },
+            "seoParams": {
+                "id": 66,
+                "title": "Cars & Bikes News, Latest Automobile Industry News & Updates Today in India - {PRODUCTNAME}",
+                "description": "Read all the latest news on Cars and Bikes, get automobile industry updated in India & around the world at {SITENAME}. Up-to-date coverage of Indian car news, car launches, reviews, interviews etc.",
+                "keyword": "auto news, india car news, indian auto news, car news, car launch news",
+                "url": "news",
+                "h1": "Latest {type}"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 65,
+            "createdAt": "2022-10-13T16:48:37.792Z",
+            "updatedAt": "2023-06-21T13:16:55.730Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 65,
+                "title": "Site Map",
+                "description": "{PRODUCTNAME} sitemap, Browse {PRODUCTNAME} pages and find the car you want and explore {PRODUCTNAME} features here",
+                "keyword": "{PRODUCTNAME} sitemap, site map, rightcar directory, Car Market",
+                "url": "sitemap.html",
+                "h1": null
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 62,
+            "createdAt": "2022-10-13T16:48:37.824Z",
+            "updatedAt": "2023-06-21T13:16:55.735Z",
+            "display_name": "Popular Listing Car Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 62,
+                "title": "Popular Cars in India: {year} Most Popular Cars, Sedan & SUVs - Page {page} ",
+                "description": "Find the most popular & best Cars in India. List of top cars models across segments that are most favoured by people. Get on-road prices, car specifications, features & much more at {SITENAME}.",
+                "keyword": "popular cars, popular new cars, most popular cars in Indiapopular cars, popular new cars, most popular cars in India",
+                "url": "new-cars/popular-car-models/<page:\\d+>",
+                "h1": "Popular Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 63,
+            "createdAt": "2022-10-13T16:48:37.814Z",
+            "updatedAt": "2023-06-21T13:16:55.733Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 63,
+                "title": "About Us",
+                "description": "CarAndBike is a source of auto news, reviews, photos, videos, new and used cars, bikes, buy bikes online, comparisons, specifications, features, car and bike dealers.",
+                "keyword": "carandbike, auto news, auto reviews, new cars, used cars, bikes, car comparison, bike comparison.",
+                "url": "about-us",
+                "h1": "About CarAndBike"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 64,
+            "createdAt": "2022-10-13T16:48:37.804Z",
+            "updatedAt": "2023-06-21T13:16:55.732Z",
+            "display_name": "Listing Story Pagination",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 64,
+                "title": "{SITENAME}: Car News, Today\\'s Latest Auto News from India & World - Page {page}",
+                "description": "Read all the latest news on auto & car industry in India & around the world at {SITENAME}. Up-to-date coverage of Indian car news, car launches, interviews on {SITENAME} - Page {page}",
+                "keyword": null,
+                "url": "news/<page:\\d+>",
+                "h1": "Latest News"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 67,
+            "createdAt": "2022-10-13T16:48:37.769Z",
+            "updatedAt": "2023-06-21T13:16:55.725Z",
+            "display_name": "Search",
+            "custom_dymentions": [
+                {
+                    "PageType": "search"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "search"
+            },
+            "seoParams": {
+                "id": 67,
+                "title": "{query} News, Photos and Videos | Latest Automobile News - carandbike",
+                "description": "carandbike.com {query} homepage get latest {query} news, auto news, auto industry",
+                "keyword": "{query} latest {query} news {query} photos {query} videos auto industry car reviews",
+                "url": "topic/<query:.*?>",
+                "h1": "Search results for <em>{query}</em>"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 56,
+            "createdAt": "2022-10-13T16:48:37.924Z",
+            "updatedAt": "2023-06-21T13:16:55.743Z",
+            "display_name": "Latest Launch Listing Car",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 56,
+                "title": "Latest Cars with Prices in India - Newly Launched Car Models in {year}",
+                "description": "Find all the latest car launched in India. Explore the {year} newly launched models prices, specs, reviews, images and news at {SITENAME} before making a buying decision.",
+                "keyword": "latest cars in india, new car launches, latest cars {year}, latest indian cars, latest cars",
+                "url": "new-cars/launches",
+                "h1": "Latest New Cars in India"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 61,
+            "createdAt": "2022-10-13T16:48:37.833Z",
+            "updatedAt": "2023-06-21T13:16:55.737Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 61,
+                "title": "Royal Enfield REunion East 2017",
+                "description": "Riders. More Riders. Their usual antics & pure motorcycling madness. Enjoy live music, motorcycling games & a celebration of all things Enfield. This #ReunionEast is going to be the one to remember.",
+                "keyword": "Royal Enfield REunion East 2017",
+                "url": "royalenfield-reunioneast",
+                "h1": "Royal Enfield REunion East 2017"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 55,
+            "createdAt": "2022-10-13T16:48:37.952Z",
+            "updatedAt": "2023-06-21T13:16:55.744Z",
+            "display_name": "Microsite",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 55,
+                "title": "EICMA 2019: Lates News, Videos, Live Updates",
+                "description": "EICMA 2019: Latest News, Videos, Live Updates from  5th - 10th November 2019",
+                "keyword": null,
+                "url": "eicma",
+                "h1": "EICMA 2019"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 59,
+            "createdAt": "2022-10-13T16:48:37.850Z",
+            "updatedAt": "2023-06-21T13:16:55.738Z",
+            "display_name": "Car User Review",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 59,
+                "title": "Write a Review, Post car review at carandbike.com",
+                "description": "Do you own a car? Leave your valuable user review, rate cars performance, mileage, comfort, mention the pros & cons, and describe your overall experience.",
+                "keyword": "write a review post review write reviews car reviews",
+                "url": "new-cars/write-a-review",
+                "h1": "Write a Review"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 50,
+            "createdAt": "2022-10-13T16:48:38.069Z",
+            "updatedAt": "2023-06-21T13:16:55.753Z",
+            "display_name": "Others",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 50,
+                "title": "Bikes & Scooters: Buy Bikes, Scooters Online in India",
+                "description": "Buy Bikes & Scooters Online in India at best prices. Shop online huge range of latest bikes, scooters from top brands like Hero MotoCorp, Bajaj and Mahindra.",
+                "keyword": "buy bikes online, buy scooters online",
+                "url": "shop/bikes",
+                "h1": "Buy Bikes & Scooters Online"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 48,
+            "createdAt": "2022-10-13T16:48:38.092Z",
+            "updatedAt": "2023-06-21T13:16:55.756Z",
+            "display_name": "Bike User Reviews Home",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 48,
+                "title": "New Bike User Reviews at {SITENAME}",
+                "description": "Do you planning to buy a bike? Read bike user reviews with other bike owners experiences  about performance, mileage, comfort almost all the bikes in India",
+                "keyword": "user review, bike user reviews, new bike user reviews , new bike user reviews in india, best bike to buy",
+                "url": "new-bikes/user-reviews",
+                "h1": "New Bike User Reviews"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 47,
+            "createdAt": "2022-10-13T16:48:38.106Z",
+            "updatedAt": "2023-06-21T13:16:55.757Z",
+            "display_name": "Listing Bike Models",
+            "custom_dymentions": [
+                {
+                    "PageType": "listing-bike-models"
+                }
+            ],
+            "custom_dimensions": {
+                "PageType": "listing-bike-models"
+            },
+            "seoParams": {
+                "id": 47,
+                "title": "New Bikes Prices List, Latest Models, Reviews & News India {year}",
+                "description": "Get details about all new bike models in India. Visit us and find new bike models, bike prices, bike features, bike comparison of different variants in India.",
+                "keyword": "new bikes, new bikes india, bike purchase, buy new bike, new model bike, best bike to buy, purchase bikes, purchase vehicles, buy new bikes, best new bikes to buy, best new vehicles buy india",
+                "url": "new-bikes/models",
+                "h1": "Find New Bikes"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 49,
+            "createdAt": "2022-10-13T16:48:38.081Z",
+            "updatedAt": "2023-06-21T13:16:55.754Z",
+            "display_name": "Car User Reviews Home",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 49,
+                "title": "New Car User Reviews at {SITENAME}",
+                "description": "Do you planning to buy a car? Read car user reviews with other car owners experiences  about performance, mileage, comfort, safety almost all the cars in India",
+                "keyword": "user review, car user reviews, new cars user reviews , new cars user reviews in india, best car to buy",
+                "url": "new-cars/user-reviews",
+                "h1": "New Car User Reviews"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        },
+        {
+            "id": 60,
+            "createdAt": "2022-10-13T16:48:37.842Z",
+            "updatedAt": "2023-06-21T13:16:55.749Z",
+            "display_name": "Bike User Review",
+            "custom_dymentions": [],
+            "custom_dimensions": null,
+            "seoParams": {
+                "id": 60,
+                "title": "Write a Review, Post Bike review at carandbike.com",
+                "description": "Do you own a bike? Leave your valuable user review, rate bikes performance, mileage, comfort, mention the pros & cons, and describe your overall experience.",
+                "keyword": "bike user review, write, post review",
+                "url": "new-bikes/write-a-review",
+                "h1": "Write a Review"
+            },
+            "createdBy": null,
+            "updatedBy": null
+        }
+    ]
